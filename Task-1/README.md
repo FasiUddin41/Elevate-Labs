@@ -1,7 +1,7 @@
 # Elevate-Labs — Task 1: Network Port Scanning & Packet Capture
 
 ## Objective
-Perform controlled reconnaissance on the local subnet `41.41.41.0/24` to discover live hosts and open ports, focus on **MS-2 (41.41.41.4)**, capture traffic with Wireshark, and document findings and remediation.
+Perform controlled reconnaissance on the local subnet `41.41.41.0/24` to discover live hosts and open ports, focus on **MS-2 (`41.41.41.4`)**, capture traffic with Wireshark, and document findings and remediation.
 
 ---
 
@@ -28,7 +28,6 @@ This repository contains Task-1 work for Elevate-Labs: Nmap scans, Wireshark cap
 
 ### 1. Setup & Install
 ```bash
-cd ~
 sudo apt update
 sudo apt install -y nmap wireshark
 ```
@@ -98,3 +97,4 @@ Refer `Interview-Questions.md` file
 `wireshark_capture.pcap` - The packet capture file from Wireshark.
 
 `screenshots/` - Directory containing all screenshots taken during the process
+
